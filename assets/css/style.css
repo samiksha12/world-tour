@@ -1,0 +1,11 @@
+.logo_img {
+  width: 167px;
+  max-height: 84px !important;
+}
+path {
+  fill: lightgray;
+  stroke: white;
+}
+path:hover {
+  fill: gray;
+}
