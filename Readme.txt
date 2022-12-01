@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Thanks for checking out my site
 
-Template Name: Yummy
-Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Github repo: https://github.com/samiksha12/world-tour
+Github Live site demo: https://samiksha12.github.io/world-tour/index.html
+Vercel Live site demo: https://world-tour-three.vercel.app/index.html
