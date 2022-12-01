@@ -1,11 +1,68 @@
+:target::before {
+  content: "";
+  display: block;
+  height: 100px; /* fixed header height*/
+  margin: -100px 0 0; /* negative fixed header height */
+}
 .logo_img {
   width: 167px;
   max-height: 84px !important;
 }
-path {
-  fill: lightgray;
-  stroke: white;
+
+#africa-cards {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/africa.webp");
 }
-path:hover {
-  fill: gray;
+#asia-cards {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/vrindavan-asia.webp");
+}
+#europe-cards {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Lourdes_Pilgrimage_To_France_Post-europe.jpg");
+}
+#namerica-cards {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Devils-Tower-Wyoming-northamerica.jpg");
+}
+#samerica-cards {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Ahu-Tongariki-Chile-cm-southamerica.jpg");
+}
+#australia-cards {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Uluru_australia.webp");
+}
+@media (min-width: 1365px) {
+  .continent-cards {
+    width: 100%;
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0 100px 0;
+    
+  }
+}
+.continent-title{
+  padding: 80px;
+}
+.continent-btn{
+  width: 20%;
+}
+.continent-cards a{
+  width: 100%;
+  color: white;
+  padding: 10px 36px;
+  border-color:  white;
+  margin: 1rem 0;
+  border-radius: 50px;
+}
+.continent-cards a:hover{
+  border-radius: 50px;
+  border-color:  white;
+  background-color: white;
+  color: black;
+}
+
+.swiper-slide img{
+  width:200px;
+  height: 150px;
 }
