@@ -826,7 +826,9 @@ section {
   background-size: cover;
   padding: 100px 0;
 }
-
+.stats-counter {
+  background-attachment: fixed;
+}
 @media (min-width: 1365px) {
   .stats-counter {
     background-attachment: fixed;
